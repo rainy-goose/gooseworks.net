@@ -6,17 +6,31 @@ body {
   box-sizing: border-box;
   background-color: #e6e6e6;
 }
-
+#root {
+  padding-top: 2%;
+}
 h1 {
   font-family: "Segoe UI", "Verdana", sans-serif;
+<<<<<<< HEAD
   padding: 4%;
+=======
+  font-size: 3em;
+>>>>>>> 01c887d5f4bc0d2e803597f5d8a073474e9d3de4
 }
 
 h2 {
-  font-family: "Segoe UI", "Verdana", sans-serif;}
+  font-family: "Segoe UI", "Verdana", sans-serif;
+  font-size: 1.75em;
+}
 
 p {
-  font-family: "Segoe UI", "Verdana", sans-serif;}
+  font-family: "Segoe UI", "Verdana", sans-serif;
+  font-size: 1.2em;
+}
+
+a {
+  font-family: "Segoe UI", "Verdana", sans-serif;
+}
 
 #top-layout {
   border-style: solid;
@@ -41,6 +55,9 @@ p {
   padding: 10px;
   padding-top: 2%;
 }
-
-#div.404{
+#server-info-bottom{
+  text-align: center;
+  float: center;
+  padding-top: 35%;
 }
+#div.404 {}
