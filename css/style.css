@@ -41,14 +41,14 @@ a {
 #triple {
   height: 25%;
   text-align: center;
-  float: left;
-  width: 33.33%;
+  float: center;
+  width: auto;
   padding: 10px;
   padding-top: 2%;
 }
 #server-info-bottom{
   text-align: center;
   float: center;
-  padding-top: 15%;
+  padding-top: 5%;
 }
 #div.404 {}
