@@ -33,22 +33,23 @@ a {
   text-align: center
 }
 
-#triplediv {
+.trirow {
   background-color: lightgrey;
-  width: auto
+  width: auto;
+  margin: 0 auto;
+  position: relative;
 }
 
-#triple {
-  height: 25%;
+.tricol {
+  float: left;
+  width: 33%;
   text-align: center;
-  float: center;
-  width: auto;
+  align-content: center;
   padding: 10px;
   padding-top: 2%;
 }
 #server-info-bottom{
   text-align: center;
-  float: center;
+  align-self: center;
   padding-top: 5%;
 }
-#div.404 {}
